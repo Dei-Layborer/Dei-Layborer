@@ -1,0 +1,194 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Major+Mono+Display&display=swap');
+@import url('https://api.fonts.coollabs.io/css2?family=Newsreader:ital&display=swap');
+
+#wrapper {
+    max-width: 55% !important;
+}
+
+#collection article, #post article {
+    max-width: 55% !important;
+}
+
+html {
+    height: 100%;
+    background-attachment: unset !important;
+    background-image: linear-gradient(240deg, #d7d2cc 0%, #304352 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto !important;
+}
+
+body {
+    background: transparent;
+    background-attachment: unset !important;
+    height: 100%;
+    overflow: auto !important;
+}
+
+hr {
+    background-color: transparent !important;
+    color: #0f0f0b77 !important;
+    border: 0;
+    border-top: 3px dashed #0f0f0b77;
+}
+
+.post-title a:link, .post-title a:visited {
+    font-family: "Major Mono Display", sans-serif;
+    font-size: 1.4em !important;
+    color: #0f0f0b;
+    text-transform: lowercase;
+    background-image: linear-gradient(#0f0f0b 0 0);
+    background-size: 0% 4px !important;
+    background-position: 0% 100% !important;
+    background-repeat: no-repeat !important;
+    transition: 0.4s !important;
+}
+
+.post-title a:hover {
+    text-decoration: none;
+    background-size: 100% 4px !important;
+}
+
+.footnote, .footnote-ref, .footnote-ref-text {
+    font-size: 0.8em;
+}
+
+#title {
+    font-family: "Major Mono Display";
+    font-size: 4em !important;
+    margin-bottom: 0.5em !important;
+    position: relative;
+    color: #0f0f0b;
+    text-transform: lowercase;
+}
+
+#blog-title a {
+    font-family: "Major Mono Display";
+    text-transform: lowercase;
+    text-shadow: 0 0 2px #0f0f0b88;
+}
+
+article time {
+    font-family: "Major Mono Display", monospace;
+    color: #0f0f0b !important;
+    font-size: 1em !important;
+    text-transform: lowercase;
+    float: left;
+    margin-left: -12em;
+    margin-bottom: -2em;
+    text-shadow: 0 0 1px #0f0f0b;
+    cursor: default;
+}
+
+header nav a {
+    font-family: "Major Mono Display", monospace;
+    text-transform: lowercase;
+    color: #0f0f0b;
+}
+
+.norm  h2 {
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.5em !important;
+
+}
+
+.norm h3 {
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.25em !important;
+}
+
+.norm p, .norm li, form {
+    font-family: "Newsreader";
+    color: #0f0f0b;
+}
+
+ul {
+    list-style-type: square;  
+}
+
+li p {
+    margin: 0;
+}
+
+.description {
+    font-family: "Newsreader";
+}
+
+input {
+    font-family: "Major Mono Dispaly";
+    text-transform: lowercase;
+}
+
+form * {
+    font-family: "Major Mono Display";
+    text-transform: lowercase;
+    color: #0f0f0b;
+    text-shadow: 0 0 1px #0f0f0b;
+}
+
+#subscribe-btn {
+    background-color: #131a20;
+    border: 0;
+    color: #ced3c0;
+}
+
+article .summary {
+    line-height: 1.6em;
+}
+
+.e-content a {
+    font-family: "Newsreader";
+    color: #0f0f0b;
+    position: relative;
+    padding: 0;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #0f0f0b;
+    text-decoration-style: solid;
+    transition: 0.4s !important;
+}
+
+.e-content a:hover {
+    color: #004880;
+    text-decoration-color: #004880;
+    text-shadow: 0 0 1px #d7d2cc88;
+}
+
+blockquote {
+    border-left-color: #0f0f0b !important;
+}
+
+body#collection a.read-more {
+    font-family: "Major Mono Display";
+    color: #0f0f0b;
+    text-transform: lowercase;
+    font-size: 1.1em;
+    background-image: linear-gradient(rgb(45, 48, 47) 0 0);
+    background-size: 0% 2px !important;
+    background-position: 0% 100% !important;
+    background-repeat: no-repeat !important;
+    transition: 0.4s !important;
+}
+
+body#collection a.read-more:hover {
+    text-decoration: none;
+    background-size: 100% 2px !important;
+}
+
+.pinned {
+    font-family: "Major Mono Display";
+    font-size: 1.2em;
+    color: #0f0f0b;
+    text-shadow: 0 0 2px #0f0f0b88;
+    text-transform: lowercase;
+    background-image: linear-gradient(#0f0f0b 0 0);
+    background-size: 0% 4px !important;
+    background-position: 0% 100% !important;
+    background-repeat: no-repeat !important;
+    transition: 0.4s !important;
+}
+
+.pinned:hover {
+    text-decoration: none;
+    background-size: 100% 4px !important;
+}
